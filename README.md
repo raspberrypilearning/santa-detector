@@ -1,5 +1,7 @@
 # Make an infra-red Santa detector
 
+![](images/HOC_Logo_200px.png)
+
 ![santa icon](images/santa-icon.png)
 
 ## Introduction
