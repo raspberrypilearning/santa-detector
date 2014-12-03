@@ -15,7 +15,7 @@ Scratch uses the 'Sensing' blocks to check if there is any input on the GPIO pin
 - Tick the check-box to the left of the block to display the pin value on screen.
 
 
-![Scratch sensing blocks](images\sensing-blocks.png)
+![Scratch sensing blocks](images/sensing-blocks.png)
 
 Test the PIR sensor by waving your hand in front of it. When it detects movement the value on screen should change from `0` to `1`.
 
@@ -33,7 +33,7 @@ Now we have a sensor that reports when it is on or off, we can use this value to
 
 Build the following script:
 
-![Scratch script for santa detector](images\santa-script.png)
+![Scratch script for santa detector](images/santa-script.png)
 
 ### What is the the program doing?
 The `if` statement continuously checks the pin 7 sensor value. When this changes to `1` it does the following:
@@ -47,7 +47,7 @@ It keeps doing this as long as the sensor value is `1` i.e. when the PIR detects
 
 The `else` statement simply hides the sprite when the sensor value is 0.
 
-![santa sprite in Scratch](images\santa-stage.png)
+![santa sprite in Scratch](images/santa-stage.png)
 
 ## Step 5: Set up the detector in your room!
 - On Christmas Eve, set up your Pi with the sensor pointing at your bedroom door.
