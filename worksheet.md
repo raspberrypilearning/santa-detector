@@ -2,9 +2,15 @@
 
 You will build a detector that spots any movement and sets off an alarm. Along the way you will learn how to connect a passive infra-red (PIR) sensor to the Raspberry Pi, and how to control the flow of your Scratch program by responding to the input from the sensor. 
 
-## Step 1: Connect the sensor
+## Step 1: Connect the PIR motion sensor
 
-Follow the instructions in [Step 1 of the worksheet here](http://www.raspberrypi.org/learning/parent-detector/WORKSHEET.md).
+Before booting your Raspberry Pi, connect the PIR module to the Raspberry Pi.
+
+Using three female-to-female jumper cables, you'll need to connect each of the PIR sensor's connectors to the appropriate pins on the Raspberry Pi.
+
+Connect the top one labelled `VCC` on the PIR sensor to the 5V pin on the Raspberry Pi, connect the middle one labelled `OUT` to GPIO pin 4, and connect the bottom one labelled `GND` to a ground pin also marked `GND`. All shown in the following diagram:
+
+![](images/pir_wiring.png)
 
 ## Step 2: Test the sensor
 
