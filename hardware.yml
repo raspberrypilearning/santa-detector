@@ -1,4 +1,3 @@
-- name: A Raspberry Pi with an SD card loaded with Raspbian
 - name: A passive infra-red detector
   img: passive-infra-red
   url: http://search.ebay.co.uk/pir+motion+sensor+module
