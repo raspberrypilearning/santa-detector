@@ -2,7 +2,7 @@
 
 You will build a detector that spots any movement and sets off an alarm. Along the way you will learn how to connect a passive infra-red (PIR) sensor to the Raspberry Pi, and how to control the flow of your Scratch program by responding to the input from the sensor. 
 
-## Step 1: Connect the PIR motion sensor
+## Connect the PIR motion sensor
 
 Before booting your Raspberry Pi, connect the PIR module to the Raspberry Pi.
 
@@ -12,7 +12,7 @@ Connect the top one labelled `VCC` on the PIR sensor to the 5V pin on the Raspbe
 
 ![](images/pir_wiring.png)
 
-## Step 2: Test the sensor
+## Test the sensor
 
 Because we are using the GPIO pins, we need to run a special version of Scratch called 'Scratch GPIO 5'. Double-click this icon on the desktop to run it.
 
@@ -21,20 +21,19 @@ Scratch uses the 'Sensing' blocks to check if there is any input on the GPIO pin
 - Click on the drop-down menu on the `sensor value` block and choose `pin7`.
 - Tick the check-box to the left of the block to display the pin value on screen.
 
-
 ![Scratch sensing blocks](images/sensing-blocks.png)
 
 Test the PIR sensor by waving your hand in front of it. When it detects movement, the value on the screen should change from `0` to `1`.
 
 If the value doesn't change, check that the correct pins are connected.
 
-## Step 3: Draw a sprite and add sound
+## Draw a sprite and add sound
 
 Click on the 'Costumes' tab and draw a Santa sprite. This will be displayed when the PIR senses movement.
 
 Click on the 'Sounds' tab and import a sound from the 'Electronic' folder. I've used a siren called 'Whoop' here.
 
-## Step 4: Program what happens when the detector spots movement
+## Program what happens when the detector spots movement
 
 Now we have a sensor that reports when it is on or off, we can use this value to control the flow of our program.  
 
@@ -58,7 +57,7 @@ The `else` statement simply hides the sprite when the sensor value is 0.
 
 ![santa sprite in Scratch](images/santa-stage.png)
 
-## Step 5: Set up the detector in your room!
+## Set up the detector in your room!
 
 - On Christmas Eve, set up your Pi with the sensor pointing at your bedroom door.
 - Connect your Pi to a huge speaker.
@@ -68,8 +67,9 @@ The `else` statement simply hides the sprite when the sensor value is 0.
 
 **Disclaimer:** we cannot guarantee that this alarm will not scare Santa off so that you get no presents at all, not even a wrinkled satsuma in an old sock.
 
+## What next?
 
-## Other stuff to try
+Other stuff to try:
 
 - Make the background flash 
 - Animate the sprite using costumes
