@@ -1,8 +1,6 @@
 # Make an infra-red Santa detector
 
-![](images/HOC_Logo_200px.png)
-
-## Introduction
+![](cover.png)
 
 No more propping your eyes open with matchsticks to try and catch Santa! This Scratch program uses a low-cost, infra-red detector to set off an alarm when Santa sneaks into your room. It's a great introduction to using simple sensors on the Raspberry Pi, and can be adapted to lots of different projects.
 
@@ -18,19 +16,15 @@ No more propping your eyes open with matchsticks to try and catch Santa! This Sc
 
 - Scratch GPIO 5
 
-## Steps
-
-1. Connect the sensor
-2. Test the sensor in Scratch
-3. Draw a sprite and add sound
-4. Program what happens when the detector spots movement
-5. Set up the detector in your room!
-
-
 ## Worksheet & included files
 
 - [Worksheet](worksheet.md)
 
+## Hour of Code
+
+This is an Hour of Code activity
+
+![](images/HOC_Logo_200px.png)
 
 ## Licence
 
