@@ -1,6 +1,6 @@
 - name: 1 x passive infra-red sensor
   img: pir
-  url: http://search.ebay.co.uk/pir+motion+sensor+module
+  url: http://thepihut.com/products/pir-motion-sensor-module
 - name: 3 x Female-to-female jumper leads
   img: jumper-female-to-female
   url: http://shop.pimoroni.com/products/jumper-jerky
