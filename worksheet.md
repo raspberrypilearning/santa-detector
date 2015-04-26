@@ -1,6 +1,6 @@
 # Santa detector
 
-You will build a detector that spots any movement and sets off an alarm. Along the way you will learn how to connect a passive infra-red (PIR) sensor to the Raspberry Pi, and how to control the flow of your Scratch program by responding to the input from the sensor. 
+You will build a detector that spots any movement and sets off an alarm. Along the way, you will learn how to connect a passive infra-red (PIR) sensor to the Raspberry Pi, and how to control the flow of your Scratch program by responding to the input from the sensor. 
 
 ## Connect the PIR motion sensor
 
@@ -73,7 +73,7 @@ Other stuff to try:
 
 - Make the background flash 
 - Animate the sprite using costumes
-- Change the sound ('Santa Claus is coming to town' would be good :)) 
+- Change the sound ('Santa Claus is coming to town' would be good!) 
 - Use different graphic effects instead of `change size`
 - Display a message 
 - Build a support or stand for the PIR module
