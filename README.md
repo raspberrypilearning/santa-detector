@@ -8,7 +8,7 @@ No more propping your eyes open with matchsticks to try and catch Santa! This Sc
 
 ### Hardware
 
-- A Raspberry Pi with an SD card loaded with Raspbian Jessie
+- A Raspberry Pi with an SD card loaded with the latest version of Raspbian
 - A passive infra-red detector (try [eBay](http://search.ebay.co.uk/pir+motion+sensor+module))
 - Three female-to-female header leads
 
