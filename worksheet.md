@@ -14,12 +14,28 @@ Connect the top one labelled `VCC` on the PIR sensor to the 5V pin on the Raspbe
 
 ## Test the sensor
 
-Because we are using the GPIO pins, we need to run a special version of Scratch called 'Scratch GPIO 5'. Double-click this icon on the desktop to run it.
+Because we are using the GPIO pins, we need to start the GPIO server in Scratch: 
 
-Scratch uses the 'Sensing' blocks to check if there is any input on the GPIO pins. If there is an input, the value of the pin changes from `0` to `1`. As you connected the PIR sensor to pin 7 of the Pi, we need to monitor that. 
+- On the desktop run Scratch using `Menu -> Programming -> Scratch`.
+- Once Scratch is running choose `Start GPIO Server` from the `Edit` menu.
 
-- Click on the drop-down menu on the `sensor value` block and choose `pin7`.
+![scratch GPIO server](images/gpio-server.png)
+
+Scratch uses the 'Sensing' blocks to check if there is any input on the GPIO pins. If there is an input, the value of the pin changes from `0` to `1`. As you connected the PIR sensor to GPIO pin 4 of the Pi, we need to monitor that. 
+
+Firstly we need to tell Scratch that pin 4 will be used as an input by *config*uring it. 
+
+- Create a broadcast message as follows:
+
+![Sensor drop down](images/config-broadcast.png)
+
+- Double click the broadcast block to run it. You only need to do this once.
+
+- In the `Sensing` block palette click on the drop-down menu on the `sensor value` block and choose `gpio4`.
 - Tick the check-box to the left of the block to display the pin value on screen.
+
+**NOTE**: If you do not see  `gpio4` on the list, make sure that the **GPIO server is running** and that you have **run the config broadcast**.
+
 
 ![Scratch sensing blocks](images/sensing-blocks.png)
 
