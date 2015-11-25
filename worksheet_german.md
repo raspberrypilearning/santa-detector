@@ -1,10 +1,10 @@
 # Christkind Detektor 
 
-Du wirst einen Detektor bauen der jede Bewegung detektiert und einen Alarm auslößt. Dabei wirst du lernen wie du einen Bewegungssensor mit dem Raspberry Pi verbindest und wie du dein Scratch Programm darauf reagieren läßt. 
+Du wirst einen Detektor bauen der jede Bewegung registriert und einen Alarm auslößt. Dabei wirst du lernen wie du einen Bewegungssensor mit dem Raspberry Pi verbindest und wie du dein Scratch Programm darauf reagieren läßt. 
 
 ## Verbinde den Motion Sensor
 
-Bevor du den Raspberry Pi hochfährst, verbinden den Sensor mit dem Raspberry Pi. 
+Bevor du den Raspberry Pi hochfährst, verbinde den Sensor mit dem Raspberry Pi. 
 
 Nehme drei female-to-female Jumper Kabel und verbinde sie mit den richtigen Pins deines Pis. 
 
@@ -24,9 +24,9 @@ Weil wir die GPIO Pins nutzen, müssen wir den GPIO Server in Scratch starten.
 
 ![scratch GPIO server](images/gpio-server.png)
 
-Scratch benutzt den 'Fühlen' Block to check if there is any input on the GPIO pins. If there is an input, the value of the pin changes from `0` to `1`. As you connected the PIR sensor to GPIO pin 4 of the Pi, we need to monitor that. 
+Scratch benutzt den 'Fühlen' Block um zu überprüfen ob es einen Input auf den GPIO Pins gibt. Wenn ein Input registiert wird, verändert sich der Wert des Pins von `0` zu `1`. Da due deinen Bewegungssensor mit dem GPIO 4 Pins des Pis verbunden hats, müssen wir diesen Pin überprüfen. 
 
-Firstly we need to tell Scratch that pin 4 will be used as an input by *config*uring it. 
+Als erstes müssen wir Scratch sagen das der Pin 4 input benutzt wird in dem wird das konfigurieren.
 
 - Erstellen eine Boardcast/Sende Block:
 
