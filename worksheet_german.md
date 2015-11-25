@@ -1,6 +1,6 @@
-# Santa Detector
+# Weihnachtsmann Detektor
 
-You will build a detector that spots any movement and sets off an alarm. Along the way, you will learn how to connect a passive infra-red (PIR) sensor to the Raspberry Pi, and how to control the flow of your Scratch program by responding to the input from the sensor. 
+Du wirst einen Detektor bauen der jede Bewegung detektiert und einen Alarm auslößt. Dabei wirst du lernen wie du einen Bewegungsmelder mit dem Raspberry Pi verbindest und wie du dein Scratch Programm reagieren läßt. 
 
 ## Connect the PIR motion sensor
 
