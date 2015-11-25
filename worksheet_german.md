@@ -20,7 +20,8 @@ Because we are using the GPIO pins, we need to start the GPIO server in Scratch:
 - Starte Scratch
 - Sobald Scratch läuft klicke auf `Start GPIO Server` aus dem `Edit` menu.
 - du kannst Scratch auf Deutsch umstellen in dem du auf die Weltkugel klickst
-- auf Deutsch kannst du den GPIO Server unter 'Bearbeiten' starten
+- auf Deutsch kannst du den GPIO Server unter `Bearbeiten` starten
+- alternativ kannst du auch einen Block mit Broadcast = gpioserveron in denen Code setzen
 
 ![scratch GPIO server](images/gpio-server.png)
 
@@ -86,13 +87,13 @@ The `else` statement simply hides the sprite when the sensor value is 0.
 
 **Disclaimer:** we cannot guarantee that this alarm will not scare Santa off so that you get no presents at all, not even a wrinkled satsuma in an old sock.
 
-## What next?
+## Was als nächstes?
 
-Other stuff to try:
+Andere Dinge die du ausprobieren kannst:
 
-- Make the background flash 
-- Animate the sprite using costumes
-- Change the sound ('Santa Claus is coming to town' would be good!) 
+- Lasse den Hintergrund blinken 
+- Animaniere deine Sprites mit Kostümen
+- Verändere den SOunf
 - Use different graphic effects instead of `change size`
 - Display a message 
 - Build a support or stand for the PIR module
