@@ -14,10 +14,13 @@ Verbinde den mit `VCC` gelabelten Pin auf dem Sensor mit dem 5V Pin deines Raspb
 
 ## Teste den Sensor
 
+Weil wir die GPIO Pins nutzen müssen wir den GPIO Server in Scratch Starteh
 Because we are using the GPIO pins, we need to start the GPIO server in Scratch: 
 
-- On the desktop run Scratch using `Menu -> Programming -> Scratch`.
-- Once Scratch is running choose `Start GPIO Server` from the `Edit` menu.
+- Starte Scratch
+- Sobald Scratch läuft klicke auf `Start GPIO Server` aus dem `Edit` menu.
+- du kannst Scratch auf Deutsch umstellen in dem du auf die Weltkugel klickst
+- auf Deutsch kannst du den GPIO Server unter 'Bearbeiten' starten
 
 ![scratch GPIO server](images/gpio-server.png)
 
