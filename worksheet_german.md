@@ -1,10 +1,10 @@
 # Weihnachtsmann Detektor
 
-Du wirst einen Detektor bauen der jede Bewegung detektiert und einen Alarm auslößt. Dabei wirst du lernen wie du einen Bewegungsmelder mit dem Raspberry Pi verbindest und wie du dein Scratch Programm reagieren läßt. 
+Du wirst einen Detektor bauen der jede Bewegung detektiert und einen Alarm auslößt. Dabei wirst du lernen wie du einen Bewegungssensor mit dem Raspberry Pi verbindest und wie du dein Scratch Programm reagieren läßt. 
 
-## Connect the PIR motion sensor
+## Verbinde den Motion Sensor
 
-Before booting your Raspberry Pi, connect the PIR module to the Raspberry Pi.
+Bevor du den Raspberry Pi hochfährst, verbinden den Sensor mit dem Raspberry Pi. 
 
 Using three female-to-female jumper cables, you'll need to connect each of the PIR sensor's connectors to the appropriate pins on the Raspberry Pi.
 
