@@ -54,7 +54,7 @@ Klicke auf den 'Sounds'/'Klang' Tab and importiere einen Klang aus dem 'Electron
 
 ## Programmiere was passiert wenn der Sensor eine Bewegung registriert
 
-Now we have a sensor that reports when it is on or off, we can use this value to control the flow of our program.  
+Jetzt haben wir einen Sensor der Bescheid gibt wenn er an oder aus ist. Wir können diesen Wert benutzn um den Fluss unseres Programmes zu steuern.  
 
 Schreibe das folgende Script:
 
@@ -62,7 +62,7 @@ Schreibe das folgende Script:
 
 ### Was macht das Programm?
 
-Das `if` Statement checket die ganze zeit den Wert von Pin 4. Wenn der Wert sich auf `1` ändert passiert folgendes:
+Das `if` Statement checkt die ganze Zeit den Wert von Pin 4. Wenn der Wert sich auf `1` ändert passiert folgendes:
 
 - zeige das Sprite
 - mache das Sprite größer
@@ -96,3 +96,4 @@ Andere Dinge die du ausprobieren kannst:
 - Nutze andere graphische Effekte als `Setze Größe`
 - Lasse eine Message erscheinen 
 - Baue einen Ständer für das PIR Modul
+- schreib das Scratch Programm als Python programm
