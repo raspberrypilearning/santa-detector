@@ -32,27 +32,27 @@ Firstly we need to tell Scratch that pin 4 will be used as an input by *config*u
 
 ![Sensor drop down](images/config-broadcast.png)
 
-- Doppelklicke den Broadcast/Sende Blck. Du musst das nur einmal machen. 
+- Doppelklicke den Broadcast/Sende Block. Du musst das nur einmal machen. 
 
 - In der  `Sensing`/`Fühlen`  Block Palette Klicke auf das Dropdown Feld des `Sensing`/`Fühlen`  Block und wähle `gpio4`.
 - Setze den Hacken in der Check-Box auf der Linken Seite damit der Wert des Sensor auf der Bühne angezeigt wird.
 
-**NOTE**: Wenn du`gpio4` nicht in der Liste siehts, stelle sicher ob der  **GPIO server is running** and that you have **run the config broadcast**.
+**NOTE**: Wenn du`gpio4` nicht in der Liste siehts, stelle sicher, dass der  **GPIO server läuft** und dass du **deinen input konfiguriert hast**.
 
 
 ![Scratch sensing blocks](images/sensing-blocks.png)
 
-Test the PIR sensor by waving your hand in front of it. When it detects movement, the value on the screen should change from `0` to `1`.
+Teste den Sensor indem du mit deiner Hand vor im winkst. Wenn der Sensor Bewegung registriert sollte sich der Wert auf der Bühne von `0` auf `1` ändern.
 
-If the value doesn't change, check that the correct pins are connected.
+Wenn sich der Wert nicht verändert überprüfe, ob die Pins richtig verbunden sind.
 
-## Draw a sprite and add sound
+## Male ein Sprite eines Christkinds oder Weihnachtsmanns
 
-Click on the 'Costumes' tab and draw a Santa sprite. This will be displayed when the PIR senses movement.
+Klicke auf das 'Costumes'/'Kostüme' Tab und male einen Weihnachtsmann oder ein Christkind. Das wird angezeigt wenn der Bewegungssensor eine Bewegung registriert. 
 
-Click on the 'Sounds' tab and import a sound from the 'Electronic' folder. I've used a siren called 'Whoop' here.
+Klicke auf den 'Sounds'/'Klang' Tab and importiere einen Klang aus dem 'Electronic' Ordner. 
 
-## Program what happens when the detector spots movement
+## Programmiere was passiert wenn der Sensor eine Bewegung registriert
 
 Now we have a sensor that reports when it is on or off, we can use this value to control the flow of our program.  
 
@@ -88,6 +88,8 @@ Der `else` / `sonst` Block versteckt das Sprite lediglich wenn der Sensor Wert 0
 
 Andere Dinge die du ausprobieren kannst:
 
+- schließe eine LED an 
+- schließe einen Buzzer an
 - Lasse den Hintergrund blinken 
 - Animiere deine Sprites mit Kostümen
 - Verändere den SOunf
