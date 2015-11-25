@@ -1,4 +1,4 @@
-# Weihnachtsmann Detektor 
+# Christkind Detektor 
 
 Du wirst einen Detektor bauen der jede Bewegung detektiert und einen Alarm auslößt. Dabei wirst du lernen wie du einen Bewegungssensor mit dem Raspberry Pi verbindest und wie du dein Scratch Programm darauf reagieren läßt. 
 
@@ -14,8 +14,7 @@ Verbinde den mit `VCC` gelabelten Pin auf dem Sensor mit dem 5V Pin deines Raspb
 
 ## Teste den Sensor
 
-Weil wir die GPIO Pins nutzen müssen wir den GPIO Server in Scratch Starteh
-Because we are using the GPIO pins, we need to start the GPIO server in Scratch: 
+Weil wir die GPIO Pins nutzen, müssen wir den GPIO Server in Scratch starten.
 
 - Starte Scratch
 - Sobald Scratch läuft klicke auf `Start GPIO Server` aus dem `Edit` menu.
@@ -25,20 +24,20 @@ Because we are using the GPIO pins, we need to start the GPIO server in Scratch:
 
 ![scratch GPIO server](images/gpio-server.png)
 
-Scratch uses the 'Sensing' blocks to check if there is any input on the GPIO pins. If there is an input, the value of the pin changes from `0` to `1`. As you connected the PIR sensor to GPIO pin 4 of the Pi, we need to monitor that. 
+Scratch benutzt den 'Fühlen' Block to check if there is any input on the GPIO pins. If there is an input, the value of the pin changes from `0` to `1`. As you connected the PIR sensor to GPIO pin 4 of the Pi, we need to monitor that. 
 
 Firstly we need to tell Scratch that pin 4 will be used as an input by *config*uring it. 
 
-- Create a broadcast message as follows:
+- Erstellen eine Boardcast/Sende Block:
 
 ![Sensor drop down](images/config-broadcast.png)
 
-- Double click the broadcast block to run it. You only need to do this once.
+- Doppelklicke den Broadcast/Sende Blck. Du musst das nur einmal machen. 
 
-- In the `Sensing` block palette click on the drop-down menu on the `sensor value` block and choose `gpio4`.
-- Tick the check-box to the left of the block to display the pin value on screen.
+- In der  `Sensing`/`Fühlen`  Block Palette Klicke auf das Dropdown Feld des `Sensing`/`Fühlen`  Block und wähle `gpio4`.
+- Setze den Hacken in der Check-Box auf der Linken Seite damit der Wert des Sensor auf der Bühne angezeigt wird.
 
-**NOTE**: If you do not see  `gpio4` on the list, make sure that the **GPIO server is running** and that you have **run the config broadcast**.
+**NOTE**: Wenn du`gpio4` nicht in der Liste siehts, stelle sicher ob der  **GPIO server is running** and that you have **run the config broadcast**.
 
 
 ![Scratch sensing blocks](images/sensing-blocks.png)
@@ -57,33 +56,31 @@ Click on the 'Sounds' tab and import a sound from the 'Electronic' folder. I've 
 
 Now we have a sensor that reports when it is on or off, we can use this value to control the flow of our program.  
 
-Build the following script:
+Schreibe das folgende Script:
 
 ![Scratch script for santa detector](images/santa-script.png)
 
-### What is the the program doing?
+### Was macht das Programm?
 
-The `if` statement continuously checks the pin 7 sensor value. When this changes to `1` it does the following:
+Das `if` Statement checket die ganze zeit den Wert von Pin 4. Wenn der Wert sich auf `1` ändert passiert folgendes:
 
-- shows the sprite
-- makes the sprite bigger
-- waits a bit
-- plays a sound
-- makes the sprite normal size
+- zeige das Sprite
+- mache das Sprite größer
+- warte 0.25 Sekunden
+- Spiele einen Sound
+- mache den Sprite wieder normalgroß
 
-It keeps doing this as long as the sensor value is `1` i.e. when the PIR detects movement.
+Dieses Programm wird immer wieder ausgeführt solange der Sensorwert `1` also solange der Sensor eine Bewegung detektiert. 
 
-The `else` statement simply hides the sprite when the sensor value is 0.
+Der `else` / `sonst` Block versteckt das Sprite lediglich wenn der Sensor Wert 0 ist. 
 
 ![santa sprite in Scratch](images/santa-stage.png)
 
-## Set up the detector in your room!
+## Baue den Detektor in deinem Zimmer auf!
 
-- On Christmas Eve, set up your Pi with the sensor pointing at your bedroom door.
-- Connect your Pi to a huge speaker.
-- Make sure the sensor does not detect you in bed or you will get false positives; the alarm will go off every time you move!
-- Go to sleep.
-- Wake up when Santa comes in and feed him mince pies and sherry.
+- Am Heiligen Abend, baue deinen Pi auf mit dem Sensor auf die Balkon oder Terrassentür gerichtet. 
+- Verbinden einen großen Lautsprecher mit deinem Pi
+- Warte
 
 **Disclaimer:** we cannot guarantee that this alarm will not scare Santa off so that you get no presents at all, not even a wrinkled satsuma in an old sock.
 
@@ -92,8 +89,8 @@ The `else` statement simply hides the sprite when the sensor value is 0.
 Andere Dinge die du ausprobieren kannst:
 
 - Lasse den Hintergrund blinken 
-- Animaniere deine Sprites mit Kostümen
+- Animiere deine Sprites mit Kostümen
 - Verändere den SOunf
-- Use different graphic effects instead of `change size`
-- Display a message 
-- Build a support or stand for the PIR module
+- Nutze andere graphische Effekte als `Setze Größe`
+- Lasse eine Message erscheinen 
+- Baue einen Ständer für das PIR Modul
