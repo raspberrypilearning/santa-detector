@@ -59,7 +59,7 @@ Build the following script:
 
 ### What is the the program doing?
 
-The `if` statement continuously checks the pin 7 sensor value. When this changes to `1` it does the following:
+The `if` statement continuously checks the pin 4 sensor value. When this changes to `1` it does the following:
 
 - shows the sprite
 - makes the sprite bigger
