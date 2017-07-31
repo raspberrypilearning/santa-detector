@@ -6,7 +6,7 @@ description: Create a Scratch program to set off an alarm when Santa sneaks in t
 original_url: https://raspberrypi.org/learning/santa-detector
 theme: red
 duration: 2
-listed: false
+listed: true
 ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
