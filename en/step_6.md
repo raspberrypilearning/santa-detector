@@ -9,6 +9,7 @@ Here is the basic idea of your algorithm:
     - Show your sprite
 	- Set it's size to fill the screen
 	- Play a loud noise
+	- Wait for the duration of the sound
 	- Reduce it's size back to normal
   - If it isn't:
     - Hide the sprite
@@ -18,9 +19,11 @@ Here is the basic idea of your algorithm:
 [[[generic-scratch-sound-from-library]]]
 
 --- hints --- --- hint ---
-Here is the alo
+All your code will need to be place within a `forever`{.blockcontrol} loop. You can then use an `if <  > then else`{.blockcontrol} block to check if the pin is high or low, and carry out the actions.
 --- /hint --- --- hint ---
-hint 2 title
+Here's a all the blocks you might need to use:
+![random](images/tile_0.png)
 --- /hint --- --- hint ---
-hint 3 title
+Here's what your finished script should look like:
+![complete](images/complete.png)
 --- /hint --- --- /hints ---

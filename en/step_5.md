@@ -2,7 +2,7 @@
 
 You will need your own sprite for this project, to warn you when Santa is approaching.
 
-[[[generic-scratch-draw-sprite]]]
+([[[generic-scratch-draw-sprite]]]) - fix when it works
 
 --- challenge ---
 Can you draw a really nice picture of Santa, to act as your sprite.
