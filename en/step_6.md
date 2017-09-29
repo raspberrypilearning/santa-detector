@@ -6,13 +6,13 @@ Here is the basic idea of your algorithm:
   1. When the flag is clicked `forever`{:class="blockcontrol"}
   1. Check to see if gpio 4 is high
   1. If it is:
-    1. Show your sprite
-	1. Set it's size to fill the screen
-	1. Play a loud noise
-	1. Wait for the duration of the sound
-	1. Reduce it's size back to normal
+    - Show your sprite
+	- Set it's size to fill the screen
+	- Play a loud noise
+	- Wait for the duration of the sound
+	- Reduce it's size back to normal
   1. If it isn't:
-    1. Hide the sprite
+    - Hide the sprite
 	
 - Now create this algorithm in Scratch. If you don't know how to use sounds in Scratch, then have a look at the section below. If you get really stuck you can use the hints.
 
