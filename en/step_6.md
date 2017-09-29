@@ -1,24 +1,26 @@
-## Program what happens when the detector spots movement
+## Detecting Santa
 
-Now we have a sensor that reports when it is on or off, we can use this value to control the flow of our program.  
+Now that you are ready, having tested your PIR Motion Sensor and having created your Santa sprite, it is time to write your program.
 
-Build the following script:
+Here is the basic idea of your algorithm:
+  - When the flag is clicked `forever`{.blockcontrol}
+  - Check to see if gpio 4 is high
+  - If it is:
+    - Show your sprite
+	- Set it's size to fill the screen
+	- Play a loud noise
+	- Reduce it's size back to normal
+  - If it isn't:
+    - Hide the sprite
+	
+- Now create this algorithm in Scratch. If you don't know how to use sounds in Scratch, then have a look at the section below. If you get really stuck you can use the hints.
 
-![Scratch script for santa detector](images/santa-script.png)
+[[[generic-scratch-sound-from-library]]]
 
-### What is the the program doing?
-
-The `if` statement continuously checks the pin 4 sensor value. When this changes to `1` it does the following:
-
-- shows the sprite
-- makes the sprite bigger
-- waits a bit
-- plays a sound
-- makes the sprite normal size
-
-It keeps doing this as long as the sensor value is `1` i.e. when the PIR detects movement.
-
-The `else` statement simply hides the sprite when the sensor value is 0.
-
-![santa sprite in Scratch](images/santa-stage.png)
-
+--- hints --- --- hint ---
+Here is the alo
+--- /hint --- --- hint ---
+hint 2 title
+--- /hint --- --- hint ---
+hint 3 title
+--- /hint --- --- /hints ---
