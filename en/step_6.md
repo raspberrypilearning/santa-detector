@@ -19,7 +19,7 @@ Here is the basic idea of your algorithm:
 [[[generic-scratch-sound-from-library]]]
 
 --- hints --- --- hint ---
-All your code will need to be place within a `forever`{:class="blockcontrol"} loop. You can then use an `if <  > then else`{class="blockcontrol"} block to check if the pin is high or low, and carry out the actions.
+All your code will need to be place within a `forever`{:class="blockcontrol"} loop. You can then use an `if <  > then else`{:class="blockcontrol"} block to check if the pin is high or low, and carry out the actions.
 --- /hint --- --- hint ---
 Here's a all the blocks you might need to use:
 ![random](images/tile_0.png)
