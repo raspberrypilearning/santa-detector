@@ -16,11 +16,11 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: "Santa Detector\r"
-- title: "Connect the PIR motion sensor\r"
-- title: "Test the sensor\r"
-- title: "Draw a sprite and add sound\r"
-- title: "Program what happens when the detector spots movement\r"
-- title: "Set up the detector in your room!\r"
+- title: PIR Motion Sensors
+- title: Testing your Motion Sensor
+- title: Create your Santa sprite
+- title: Detecting Santa
+- title: Set up the detector in your room
+- title: "Challenge: Adding more actions"
 
 

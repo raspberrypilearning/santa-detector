@@ -1,4 +1,4 @@
-## Testing your PIR
+## Testing your Motion Sensor
 
 Before starting your Santa Detector project, you will need to test that your Raspberry Pi is able to listen to the PIR Motion Sensor, to know when it detects motion.
 
