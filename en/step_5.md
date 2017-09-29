@@ -7,5 +7,6 @@ generic-scratch-draw-sprite - fix when it works
 --- challenge ---
 Can you draw a really nice picture of Santa, to act as your sprite.
 If you get really stuck, then you can always use the one below.
+
 ![santa](images/santa-icon.png)
 --- /challenge ---
