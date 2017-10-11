@@ -1,12 +1,12 @@
-## Testing your Motion Sensor
+## Testing your motion sensor
 
-You will need to test that your Raspberry Pi is able to listen to the PIR Motion Sensor, to know when it detects motion.
+You will need to test that your Raspberry Pi is able to listen to the PIR motion sensor, so that it can find out when motion is detected.
 
-- Start the Scratch 2 program to begin testing.
+- Start the Scratch 2 application to begin testing.
 
 [[[rpi-scratch-opening]]]
 
-- Now enable the Pi GPIO extension in Scratch 2.
+- Enable the Pi GPIO extension in Scratch 2.
 
 [[[rpi-scratch-add-pi-gpio]]]
 
