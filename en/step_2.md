@@ -7,6 +7,7 @@
 - 3 x Female-to-female jumper leads
 - A small screwdriver
 - Speakers or Headphones
+
 ### Software
 
 You will need the latest version of Raspbian, which already includes the following software packages:
