@@ -3,7 +3,7 @@
 Now that you have tested the motion sensor and created your Santa sprite, you're ready to write your program.
 {:class="blockdata"}
 Here is the basic idea of your algorithm:
-  1. When the flag is clicked.
+  1. When the flag is clicked
   1. `forever`{:class="blockcontrol"}
   1. Check to see if **GPIO 4** is `high`
   1. If it is:
