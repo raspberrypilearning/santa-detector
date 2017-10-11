@@ -2,7 +2,9 @@
 
 You will need your own sprite for this project, to warn you when Santa is approaching.
 
-generic-scratch-draw-sprite - fix when it works
+- Delete the cat sprite by right-clicking on it and selecting delete. Then create your own Santa sprite.
+
+[[[generic-scratch-draw-sprite]]]
 
 --- challenge ---
 Can you draw a really nice picture of Santa, to act as your sprite.
