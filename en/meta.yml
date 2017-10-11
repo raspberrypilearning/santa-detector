@@ -1,7 +1,7 @@
 ---
-title: Santa Detector
+title: Santa detector
 hero_image: images/banner.png
-description: Create a Scratch program to set off an alarm when Santa sneaks in to
+description: Create a Scratch program to set off an alarm when Santa sneaks into
   your room
 original_url: https://raspberrypi.org/learning/santa-detector
 theme: red
@@ -11,16 +11,16 @@ ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 interests: ''
-technologies: scratch, physical computing
+technologies: rpi, physical computing, scratch
 site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: "Santa Detector\r"
-- title: "Connect the PIR motion sensor\r"
-- title: "Test the sensor\r"
-- title: "Draw a sprite and add sound\r"
-- title: "Program what happens when the detector spots movement\r"
-- title: "Set up the detector in your room!\r"
-- title: "What next?\r"
+- title: PIR motion sensors
+- title: Test your motion sensor
+- title: Create your Santa sprite
+- title: Detecting Santa
+- title: Set up the detector in your room!
+- title: "Challenge: adding more actions"
+
 

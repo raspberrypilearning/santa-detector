@@ -1,10 +1,15 @@
-## Connect the PIR motion sensor
+## Testing your motion sensor
 
-Before booting your Raspberry Pi, connect the PIR module to the Raspberry Pi.
+You will need to test that your Raspberry Pi is able to listen to the PIR motion sensor, so that it can find out when motion is detected.
 
-Using three female-to-female jumper cables, you'll need to connect each of the PIR sensor's connectors to the appropriate pins on the Raspberry Pi.
+- Start the Scratch 2 application to begin testing.
 
-Connect the top one labelled `VCC` on the PIR sensor to the 5V pin on the Raspberry Pi, connect the middle one labelled `OUT` to GPIO pin 4, and connect the bottom one labelled `GND` to a ground pin also marked `GND`. All shown in the following diagram:
+[[[rpi-scratch-opening]]]
 
-![](images/pir_wiring.png)
+- Enable the Pi GPIO extension in Scratch 2.
 
+[[[rpi-scratch-add-pi-gpio]]]
+
+- Now use the section below to write a small script to test that your Raspberry Pi is detecting motion.
+
+[[[rpi-scratch-pir]]]

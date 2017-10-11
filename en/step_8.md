@@ -1,10 +1,11 @@
-## Set up the detector in your room!
+## Challenge: adding more actions
 
-- On Christmas Eve, set up your Pi with the sensor pointing at your bedroom door.
-- Connect your Pi to a huge speaker.
-- Make sure the sensor does not detect you in bed or you will get false positives; the alarm will go off every time you move!
-- Go to sleep.
-- Wake up when Santa comes in and feed him mince pies and sherry.
-
-**Disclaimer:** we cannot guarantee that this alarm will not scare Santa off so that you get no presents at all, not even a wrinkled satsuma in an old sock.
-
+--- challenge ---
+There are lots of other things you could try and add to your program:
+- Make the background flash
+- Animate the sprite using costumes
+- Change the sound (‘Santa Claus is coming to town’ would be good!)
+- Use different graphic effects instead of change size
+- Display a message
+- Build a support or stand for the PIR sensor
+--- /challenge ---

@@ -1,24 +1,10 @@
-## Program what happens when the detector spots movement
+## Set up the detector in your room!
 
-Now we have a sensor that reports when it is on or off, we can use this value to control the flow of our program.  
+- On Christmas Eve, set up your Pi with the sensor pointing at your bedroom door.
+- Connect your Pi to a huge speaker.
+- Make sure the sensor does not detect you in bed, otherwise you will get false positives: the alarm will go off every time you move!
+- Go to sleep.
+- Wake up when Santa comes in and feed him mince pies and sherry.
 
-Build the following script:
-
-![Scratch script for santa detector](images/santa-script.png)
-
-### What is the the program doing?
-
-The `if` statement continuously checks the pin 4 sensor value. When this changes to `1` it does the following:
-
-- shows the sprite
-- makes the sprite bigger
-- waits a bit
-- plays a sound
-- makes the sprite normal size
-
-It keeps doing this as long as the sensor value is `1` i.e. when the PIR detects movement.
-
-The `else` statement simply hides the sprite when the sensor value is 0.
-
-![santa sprite in Scratch](images/santa-stage.png)
+**Disclaimer:** we cannot guarantee that this alarm will not scare Santa off so that you get no presents at all, not even a wrinkled satsuma in an old sock.
 
