@@ -1,18 +1,18 @@
-## PIR Motion Sensors
+## PIR motion sensors
 
-A PIR Motion Sensor is a component that can be used to detect when a warm body (like a human or an animal) is moving. You can read more about PIR Motion Sensors in the section below.
+A passive infrared (PIR) motion sensor is a component that you can use to detect when a warm body (like a human or an animal) is moving. You can read more about PIR motion sensors in the section below.
 
 [[[rpi-theory-pir]]]
 
-You might need to tune your PIR, so that it will work with this project.
+You might need to tune your PIR sensor so that it will work with this project.
 
-- Have a look at the section below, to learn how to tune your PIR Motion Sensor correctly.
+- Have a look at the section below to learn how to tune your PIR sensor correctly.
 
 [[[generic-electronics-tune-pir]]]
 
-- You will want to turn both potentiometers fully anticlockwise for this project.
+- You will want to turn both potentiometers fully anti-clockwise for this project.
 
-- Now you will need to connect your PIR Motion Sensor to your Raspberry Pi. Read the section below, and connect your PIR Motion Sensor so that the **OUT** pin is connected to the GPIO 4 pin of your Raspberry Pi. Make sure you look at the labels on the PIR Motion Sensor, so that you know which pin is which.
+- Now you need to connect your PIR sensor to your Raspberry Pi. Read the section below, and connect your sensor so that the **OUT** pin is connected to the **GPIO 4** pin of your Pi. Look at the labels on the sensor to check which pin is which.
 
 [[[rpi-gpio-connect-pir]]]
 
