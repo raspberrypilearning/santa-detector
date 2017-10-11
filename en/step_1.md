@@ -1,7 +1,7 @@
 ## Introduction
 
 ### What you will make
-No more propping your eyes open with matchsticks to try and catch Santa! This Scratch program uses a low-cost, infra-red detector to set off an alarm when Santa sneaks into your room. It's a great introduction to using simple sensors on the Raspberry Pi, and can be adapted to lots of different projects.
+No more propping your eyes open with matchsticks to try and catch Santa! This Scratch program uses a low-cost infrared sensor to set off an alarm when Santa sneaks into your room. This resource a great introduction to using simple sensors with the Raspberry Pi, and it can be adapted for lots of other projects.
 
 ### What you will learn
 
