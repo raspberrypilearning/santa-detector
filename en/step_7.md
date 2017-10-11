@@ -2,7 +2,7 @@
 
 - On Christmas Eve, set up your Pi with the sensor pointing at your bedroom door.
 - Connect your Pi to a huge speaker.
-- Make sure the sensor does not detect you in bed or you will get false positives; the alarm will go off every time you move!
+- Make sure the sensor does not detect you in bed, otherwise you will get false positives: the alarm will go off every time you move!
 - Go to sleep.
 - Wake up when Santa comes in and feed him mince pies and sherry.
 
