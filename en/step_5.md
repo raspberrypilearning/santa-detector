@@ -1,14 +1,16 @@
-## Create your Santa sprite
+## Set up the detector in your room!
 
-For this project, you will need your own sprite which can warn you when Santa is approaching.
+--- task ---
+1. On Christmas Eve, set up your Pi with the sensor pointing at your bedroom door.
 
-- Delete the cat sprite by right-clicking on it and selecting **delete**. Then create your own Santa sprite.
+1. Connect your Pi to a huge speaker.
 
-[[[generic-scratch-draw-sprite]]]
+1. Make sure the sensor does not detect you in bed, otherwise you will get false positives: the alarm will go off every time you move!
 
---- challenge ---
-Can you draw a really nice picture of Santa to act as your sprite?
-If you get really stuck, then you can always use this one:
+1. Go to sleep.
 
-![santa](images/santa-icon.png)
---- /challenge ---
+1. Wake up when Santa comes in and feed him mince pies and sherry.
+--- /task ---
+
+**Disclaimer:** we cannot guarantee that this alarm will not scare Santa off so that you get no presents at all, not even a wrinkled satsuma in an old sock.
+

@@ -1,10 +1,5 @@
-## Set up the detector in your room!
+## What next?
 
-- On Christmas Eve, set up your Pi with the sensor pointing at your bedroom door.
-- Connect your Pi to a huge speaker.
-- Make sure the sensor does not detect you in bed, otherwise you will get false positives: the alarm will go off every time you move!
-- Go to sleep.
-- Wake up when Santa comes in and feed him mince pies and sherry.
+- Have a try at some other [physical computing projects using Scratch here.](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=electronic-components)
 
-**Disclaimer:** we cannot guarantee that this alarm will not scare Santa off so that you get no presents at all, not even a wrinkled satsuma in an old sock.
-
+- Or maybe have a go at broadening your skills and try some [Python projects here.](https://projects.raspberrypi.org/en/projects?software%5B%5D=python&hardware%5B%5D=electronic-components)
