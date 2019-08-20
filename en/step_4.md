@@ -24,13 +24,11 @@ show
 
 set sizer to (150) %
 
-play sound [whoop v]
+play sound [whoop v] until done
 
 forever
 
 when flag clicked
-
-wait (5) secs
 
 hide
 
@@ -39,17 +37,19 @@ else
 end
 
 <gpio (4 v) is [high v] :: extension>
+
+set gpio (4 v) to input [pulled low] ::extension
 ```
 --- /hint --- --- hint ---
 Here's what your finished script should look like:
 ```block3
 when flag clicked
+set gpio (4 v) to input [pulled low] ::extension
 forever
 if <gpio (4 v) is [high v] :: extension> then
 show
 set size to (150)%
-play sound [whoop v]
-wait (5) secs
+play sound [whoop v] until done
 set size to (100) %
 else
 hide
