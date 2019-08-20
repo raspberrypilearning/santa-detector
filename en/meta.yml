@@ -15,13 +15,13 @@ site_areas: projects
 hardware: raspberry-pi, electronic-components
 software: scratch
 version: 4
-last_tested: 2017-12-01
+last_tested: 2019-08-20
 steps: 
 - title: Introduction
-- title: What you will need
-- title: PIR motion sensors
 - title: Test your motion sensor
 - title: Create your Santa sprite
 - title: Detecting Santa
 - title: Set up the detector in your room!
 - title: "Challenge: adding more actions"
+  challenge: true
+- title: What next?
