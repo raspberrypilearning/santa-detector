@@ -41,7 +41,7 @@ sudo apt install scratch3
 
 ### Downloads
 
-A completed project file can be found [here](http://rpf.io/p/en/santa-detector-get){:target="_blank"}.
+A completed project file can be found [here](https://rpf.io/p/en/santa-detector-get){:target="_blank"}.
 --- /collapse ---
 
 --- collapse ---
@@ -50,7 +50,7 @@ title: Additional information for educators
 ---
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/santa-detector/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/santa-detector-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/santa-detector-get){:target="_blank"}.
 
 --- /collapse ---
 
