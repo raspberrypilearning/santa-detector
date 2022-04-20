@@ -29,7 +29,7 @@ title: What you will need
 
 - A Raspberry Pi 4
 - A PIR motion sensor
-- Female to Female jumper leads
+- Socket-to-socket jumper leads
 
 ### Software
 
