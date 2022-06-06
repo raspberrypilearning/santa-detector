@@ -19,12 +19,14 @@ version: 4
 last_tested: 2019-08-20
 steps:
 - title: Introduction
-  completion: engaged
 - title: Test your motion sensor
 - title: Create your Santa sprite
+  completion:
+  - engaged
 - title: Detecting Santa
-  completion: internal
 - title: Set up the detector in your room!
+  completion:
+  - internal
 - title: 'Challenge: adding more actions'
   challenge: true
 - title: What next?
