@@ -30,3 +30,5 @@ steps:
 - title: 'Challenge: adding more actions'
   challenge: true
 - title: What next?
+  completion:
+  - external
