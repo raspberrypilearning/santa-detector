@@ -15,32 +15,8 @@ Here is what your program should do:
 	 1. If it isn't:
 		- Hide the sprite
 	
---- hints --- --- hint ---
-All your code will need to be place within a `forever`{:class="block3control"} loop. You can then use an `if <  > then else`{:class="block3control"} block to check if the pin is `high` or `low`, and carry out the actions.
---- /hint --- --- hint ---
-Here are all the blocks you need to use:
-```blocks3
-show
-
-set sizer to (150) %
-
-play sound [whoop v] until done
-
-forever
-
-when flag clicked
-
-hide
-
-if < > then
-else
-end
-
-<gpio (4 v) is [high v] :: extension>
-
-set gpio (4 v) to input [pulled low v] ::extension
-```
---- /hint --- --- hint ---
+--- hints ---
+--- hint ---
 Here's what your finished script should look like:
 ```block3
 when flag clicked
@@ -54,4 +30,6 @@ set size to (100) %
 else
 hide
 ```
---- /hint --- --- /hints ---
+--- /hint ---
+--- /hints ---
+
