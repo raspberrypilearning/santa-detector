@@ -18,7 +18,7 @@ Here is what your program should do:
 --- hints ---
 --- hint ---
 Here's what your finished script should look like:
-```block3
+```blocks3
 when flag clicked
 set gpio (4 v) to input [pulled low] ::extension
 forever
@@ -29,6 +29,8 @@ play sound [whoop v] until done
 set size to (100) %
 else
 hide
+end
+end
 ```
 --- /hint ---
 --- /hints ---
