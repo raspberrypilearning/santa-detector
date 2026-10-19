@@ -47,5 +47,5 @@ say [you're still]
 --- task ---
 Cover your motion sensor with an upturned cup, then run the script by clicking on the green flag.
 
-When you move the cup, the sprite should say `you're still`.
+Lift the cup and move your hand in front of the sensor. When it detects movement, the sprite should say `you moved`. Keep still and wait for the sensor to return to low; the sprite should then say `you're still`.
 --- /task ---
